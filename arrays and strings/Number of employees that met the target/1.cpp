@@ -7,8 +7,9 @@ public:
        //for (auto h : hours): This syntax iterates over each element in the container hours. 
        //The variable h represents each element of hours during each loop iteration.
        //The auto keyword automatically deduces the type of h based on the type of elements in hours.
-auto: The auto keyword automatically deduces the type of h based on the type of elements in hours. For example, if hours is a std::vector<int>, auto will make h an int for each loop iteration.
-hours: This is the container (e.g., a vector, array, or set) that you want to loop through.
+        //auto: The auto keyword automatically deduces the type of h based on the type of elements in hours. 
+        //For example, if hours is a std::vector<int>, auto will make h an int for each loop iteration.
+        //hours: This is the container (e.g., a vector, array, or set) that you want to loop through.
         for(auto h : hours){
             //if my hour h is greater than or equal to my target
             if(h >= target){
