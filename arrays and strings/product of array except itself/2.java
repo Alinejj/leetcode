@@ -1,4 +1,4 @@
-lass Solution {
+class Solution {
     public int[] productExceptSelf(int[] nums) {
         //Creates an array 'answer' of the same size as 'nums'. Unlike Vector or ArrayList, this array has a fixed size.
         int[] answer = new int[nums.length];
